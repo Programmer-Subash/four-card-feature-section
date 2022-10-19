@@ -1,0 +1,120 @@
+:root {
+    --darkBlue: hsl(234, 12%, 34%);
+    --grayishBlue: hsl(229, 6%, 66%);
+    --lightGray: hsl(0, 0%, 98%);
+    --Red: hsl(0, 78%, 62%);
+    --cyan: hsl(180, 62%, 55%);
+    --orange: hsl(34, 97%, 64%);
+    --blue: hsl(212, 86%, 64%);
+    font-size:62.5%;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-size: 3.2rem;
+    margin: 0 0 0px 0;
+}
+
+h2 {
+    margin: 0 0 15px 0;
+}
+
+p {
+    margin: 0 0 10px 0;
+}
+
+/*Heaing section*/
+.container{
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+    margin:70px auto;
+    width:80%;
+}
+
+.heading_description {
+    color: var(--darkBlue);
+    text-align: center;
+}
+
+.first_line_heading {
+    font-weight: 200;
+}
+
+.second_line_heading {
+    font-weight: 600;
+    margin:0 0 20px 0;
+}
+
+.heading_description p {
+    color: var(--grayishBlue);
+    font-size: 1.5rem;
+}
+
+/*card section*/
+.cards{
+    height: 520px;
+    margin:50px 0;
+    position: relative;
+    width:100%;
+}
+.card {
+    border-radius: 5px;
+    box-shadow:
+    0.5px 1.1px 3.6px rgba(0, 0, 0, 0.014),
+    1.4px 3px 10px rgba(0, 0, 0, 0.026),
+    3.3px 7.2px 24.1px rgba(0, 0, 0, 0.041),
+    11px 24px 80px rgba(0, 0, 0, 0.07); 
+    display: flex;
+    height:250px;
+    flex-direction: column;
+    padding: 30px;
+    position: absolute;
+    width: 350px;
+}
+
+h2 {
+    color: var(--darkBlue);
+    font-size: 2rem;
+}
+
+.cards p {
+    color: var(--grayishBlue);
+    font-size: 1rem;
+}
+svg{
+   align-self: flex-end; 
+   position: relative;
+   top:50px;
+   width:50px;
+}
+.top_card{
+    border-top: 4px solid var(--Red);
+    left:430px;
+}
+.buttom_card{
+    border-top: 4px solid var(--orange);
+    left:430px;
+    top:270px;
+}
+.left_card{
+    border-top: 4px solid var(--cyan);
+    left:60px;
+    top:135px;
+}
+.right_card{
+    border-top: 4px solid var(--blue);
+    left:800px;
+    top:135px;
+}
+/*footer */
+.footer p{
+    color: var(--grayishBlue);
+    font-size: 1.5rem;
+}
